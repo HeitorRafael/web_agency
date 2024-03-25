@@ -1,0 +1,138 @@
+/* Reset padrão para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name_content h1,
+.name_content p {
+    display: inline-block;
+}
+
+.nav_content ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_content li {
+    padding: 0 10px;
+}
+
+#i_content {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#baner_content img {
+    width: 100%;
+    height: auto;
+}
+
+#description_content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#p_content,
+#motivos_content {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#display_service div {
+    display: inline-block;
+    margin: 10px;
+    width: 18%; /* Ajuste para caber 5 em uma linha */
+    vertical-align: top;
+}
+
+#display_service h1,
+#display_service p {
+    margin-bottom: 15px;
+}
+
+#motivos_content h2,
+#motivos_content h1,
+#motivos_content p {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#motivos_content div {
+    background-color: #fff; /* Cor de fundo para a seção de motivos */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#motivos_content h1 {
+    color: #333; /* Cor do texto para os títulos */
+    margin-bottom: 10px;
+}
+
+#motivos_content p {
+    color: #666; /* Cor do texto para os parágrafos */
+    margin-bottom: 20px;
+}
+
+#statistcs_content div {
+    background-color: #f9f9f9; /* Cor de fundo para a seção de estatísticas */
+    padding: 20px;
+    margin: 20px 0;
+    display: inline-block;
+    width: 18%; /* Ajuste para caber 5 em uma linha */
+    vertical-align: top;
+}
+
+#statistcs_content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#statistcs_content h1 {
+    color: #333; /* Cor do texto para os títulos */
+    margin-bottom: 10px;
+}
+
+#statistcs_content p {
+    color: #666; /* Cor do texto para os parágrafos */
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
